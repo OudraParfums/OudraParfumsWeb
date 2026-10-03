@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Oudrá Parfums</title>
+    <meta
+      name="description"
+      content="Oudrá Parfums: mira el catálogo, síguenos en TikTok o escríbenos por WhatsApp."
+    />
+    <meta name="theme-color" content="#040404" />
+    <meta property="og:title" content="Oudrá Parfums" />
+    <meta
+      property="og:description"
+      content="Catálogo, TikTok y WhatsApp de Oudrá Parfums."
+    />
+    <meta property="og:image" content="logo.png" />
+    <link
+      rel="icon"
+      href="https://www.image2url.com/r2/default/images/1791041645829-225dff2c-3c88-422c-beb3-0176703e22cb.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #040404;
+        --gold-light: #f5e180;
+        --gold: #d1ac42;
+        --gold-dark: #8a6d25;
+        --text: #e9d9a0;
+        --gold-gradient: linear-gradient(
+          135deg,
+          #f5e180 0%,
+          #d1ac42 55%,
+          #a98530 100%
+        );
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html,
+      body {
+        min-height: 100%;
+      }
+
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: "Cormorant Garamond", Georgia, "Times New Roman", serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        padding: 24px 20px 32px;
+        text-align: center;
+      }
+
+      main {
+        width: 100%;
+        max-width: 520px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .logo {
+        width: min(100%, 460px);
+        height: auto;
+        display: block;
+      }
+
+      .tagline {
+        font-size: 1.25rem;
+        line-height: 1.5;
+        color: var(--text);
+        margin: 4px 0 28px;
+      }
+
+      .links {
+        list-style: none;
+        width: 100%;
+        display: grid;
+        gap: 14px;
+      }
+
+      .btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        width: 100%;
+        padding: 16px 22px;
+        border: 1px solid var(--gold);
+        color: var(--gold-light);
+        text-decoration: none;
+        font-family: inherit;
+        font-size: 1.3rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        background: transparent;
+        transition:
+          background 0.2s ease,
+          color 0.2s ease,
+          border-color 0.2s ease;
+      }
+
+      .btn svg {
+        width: 22px;
+        height: 22px;
+        fill: currentColor;
+        flex: none;
+      }
+
+      .btn:hover {
+        background: rgba(209, 172, 66, 0.12);
+        border-color: var(--gold-light);
+      }
+
+      .btn:focus-visible {
+        outline: 2px solid var(--gold-light);
+        outline-offset: 3px;
+      }
+
+      .btn-primary {
+        background: var(--gold-gradient);
+        color: #120e02;
+        border-color: transparent;
+      }
+
+      .btn-primary:hover {
+        background: var(--gold-gradient);
+        filter: brightness(1.08);
+        border-color: transparent;
+      }
+
+      .divider {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        width: 100%;
+        margin: 34px 0 14px;
+      }
+
+      .divider::before,
+      .divider::after {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, var(--gold-dark));
+      }
+
+      .divider::after {
+        transform: scaleX(-1);
+      }
+
+      .diamond {
+        width: 10px;
+        height: 10px;
+        background: var(--gold-dark);
+        transform: rotate(45deg);
+      }
+
+      footer {
+        font-size: 1rem;
+        color: var(--gold-dark);
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .btn {
+          transition: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <img class="logo" src="logo.png" alt="Oudrá Parfums" />
+
+      <p class="tagline">Elige cómo quieres conocernos</p>
+
+      <ul class="links">
+        <li>
+          <a
+            class="btn btn-primary"
+            href="https://wa.me/573148503800?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20los%20perfumes%20de%20Oudr%C3%A1%20Parfums"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.07-.1-.23-.16-.48-.28z"
+              />
+            </svg>
+            Escríbenos por WhatsApp
+          </a>
+        </li>
+        <li>
+          <a
+            class="btn"
+            href="https://wa.me/573148503800?text=Estoy%20interesado%20en%20precios%20al%20por%20mayor"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.23 8.23 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.16.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.16-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.42h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.07-.1-.23-.16-.48-.28z"
+              />
+            </svg>
+            Precios al por mayor
+          </a>
+        </li>
+        <li>
+          <a
+            class="btn"
+            href="https://drive.google.com/file/d/1ZUllrYUWwiG3Hd3RYjbhuWW731AIGUZJ/view?usp=drive_link"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M5 3h11a3 3 0 0 1 3 3v15a1 1 0 0 1-1.5.86L12 18.7l-5.5 3.16A1 1 0 0 1 5 21V3zm2 2v13.27l4.5-2.58a1 1 0 0 1 1 0L17 18.27V6a1 1 0 0 0-1-1H7z"
+                transform="translate(0 0)"
+              />
+            </svg>
+            Ver catálogo
+          </a>
+        </li>
+        <li>
+          <a
+            class="btn"
+            href="https://www.tiktok.com/@oudraparfumsonlineshop?is_from_webapp=1&amp;sender_device=pc"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M16.6 2h-3.2v13.4a2.9 2.9 0 1 1-2.9-2.9c.3 0 .6 0 .9.1V9.3a6.1 6.1 0 1 0 5.2 6.1V8.7a7.9 7.9 0 0 0 4.4 1.4V6.9a4.7 4.7 0 0 1-4.4-4.9z"
+              />
+            </svg>
+            Síguenos en TikTok
+          </a>
+        </li>
+      </ul>
+
+      <div class="divider" aria-hidden="true">
+        <span class="diamond"></span>
+      </div>
+    </main>
+  </body>
+</html>
